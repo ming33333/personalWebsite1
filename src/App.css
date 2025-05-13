@@ -79,7 +79,7 @@ footer {
   top: 0;
   width: 50px; /* Adjust the size of the image */
   height: auto;
-  animation: move-vertically 3s linear infinite;
+  animation: move-vertically 6s linear infinite;
   pointer-events: none; /* Prevent interaction with the image */
 }
 

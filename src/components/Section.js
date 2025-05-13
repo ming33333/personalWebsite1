@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import moneyImageSrc from "./money.png"; // Import the image
 
 function Section({ id, title, items }) {
   const sectionRef = useRef(null);
@@ -10,7 +11,7 @@ function Section({ id, title, items }) {
 
       // Create the image element
       const moneyImage = document.createElement("img");
-      moneyImage.src = "/money.png"; // Path to your image
+      moneyImage.src = moneyImageSrc
       moneyImage.className = "money-image";
       moneyImage.style.left = `${Math.random() * 100}%`; // Random horizontal position
       overlay.appendChild(moneyImage);
