@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
+import {Experience} from "./components/Experience";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           "Bachelor's in Field - University - Year",
           "Master's in Field - University - Year"
         ]} />
+        <Experience />
         <Section id="scholarships" title="Scholarships" items={[
           "Scholarship Name - Year",
           "Scholarship Name - Year"
