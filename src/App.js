@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
-import {Experience} from "./components/Experience";
+import Experience from "./components/Experience";
 import "./App.css";
 
 function App() {
